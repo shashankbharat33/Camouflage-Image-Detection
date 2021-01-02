@@ -1,2 +1,3 @@
 # Camouflage-Image-Detection
-Camouflage Images are predicted using deep neural networks
+
+The objective of the project was to predict the camouflaged images using deep neural networks. The dataset consists of around 10,000 images. The technique used is 'Object Detection Segmentation'. Training is done on 6,000 images. Contour and Gaussian filter were applied during the preprocessing. Various models like UNet, UNet+UNet, UNetXception and SiNet were applied for the predictions. Best results were given by the SiNet. The model is used with different activations like 'Softmax', 'Sigmoid' and ReLu. Loss Functions used are 'Categorical Cross Entropy', 'Binary Cross Entropy', 'MSE'. Best performance of SiNet is achieved with loss as low as 0.002.
